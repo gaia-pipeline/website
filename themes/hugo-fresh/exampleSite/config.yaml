@@ -9,13 +9,15 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Gaia
+    title: Manage. Deploy.
     # Hero subtitle (optional)
-    subtitle: Build powerful pipelines in any programming language.
+    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "https://docs.gaia-pipeline.io/getting-started/"
+    buttonlink: "#"
+    # Hero image (from /images/___)
+    image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - systek
@@ -26,18 +28,21 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
-    url: "#features"
-  - title: Download
-    url: https://github.com/gaia-pipeline/gaia/releases
-    target: _blank
-  - title: Docs
-    url: https://docs.gaia-pipeline.io
-    target: _blank
-  - title: Tutorials
-    url: https://docs.gaia-pipeline.io/tutorials/
-    target: _blank
-  - title: Get started
-    url: https://docs.gaia-pipeline.io/getting-started/
+    url: /
+  - title: Pricing
+    url: /
+  - title: Dropdown
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Log in
+    url: /
+  - title: Sign up
+    url: /
     button: true
   sidebar:
     # Logo (from /images/logos/___.svg)
@@ -74,40 +79,44 @@ params:
       - text: App settings
         url: /
   section1:
-    title: Principles of Gaia
-    subtitle: We believe it's time to remove all unnecessary abstractions and come back to our roots.
+    title: Great power comes
+    subtitle: with great responsibility
     tiles:
-    - title: Multilingual 
-      icon: code.png
-      text: Write pipelines in Go, Java, Python and C++.
+    - title: App builder
+      icon: mouse-globe
+      text: This is some explanatory text that is on two rows
       url: /
-      buttonText: Learn more
-    - title: Super fast and lightweight
-      icon: speed.png
-      text: Based on Go and gRPC, Gaia is super fast and lightweight.
+      buttonText: Free trial
+    - title: Cloud integration
+      icon: laptop-cloud
+      text: This is some explanatory text that is on two rows
       url: /
-      buttonText: Learn more
-    - title: Developer friendly
-      icon: automation.png
-      text: Do automation in a way developers know and love.
+      buttonText: Get started
+    - title: Add-ons & plugins
+      icon: plug-cloud
+      text: This is some explanatory text that is on two rows
       url: /
-      buttonText: Learn more
+      buttonText: Get started
   section2:
-    title: Features
-    subtitle: Gaia enables DevOps and makes developers happy. 
+    title: You're here because you want the best
+    subtitle: And we know it
     features:
-    - title: Programming language independent
-      text: Gaia is programming language independent and basically any programming language can be used to write pipelines. At this point of time we officially support Go, Java, Python and C++. Your favorite language is not supported? Open a new issue and request it!
-      icon: code.png
-    - title: Testing desired
-      text: Test your pipelines and write unit tests like you do for your application. No excuses anymore to do testing right for your automation pipelines.   
-      icon: bug.png
-    - title: Simple and efficient
-      text: Gaia comes with the automatic build feature for pipelines. Simply push your code to a git repository. Gaia automatically clones your code repository, compiles your code to a binary and executes it on-demand.
-      icon: genius.png
-    - title: Open-source
-      text: Gaia is open-source and will always be! Feel free to have a look at the source code, discuss new features and help us to improve it!
-      icon: github.png
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
   section4:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
@@ -141,3 +150,30 @@ params:
     - link: https://bitbucket.org/#
       icon: bitbucket
     bulmalogo: true
+    product:
+    - text: Discover features
+      link: /
+    - text: Why choose our product?
+      link: /
+    - text: Compare features
+      link: /
+    - text: Our roadmap
+      link: /
+    - text: Request features
+      link: /
+    docs:
+    - text: Get started
+      link: /
+    - text: User guides
+      link: /
+    - text: Admin guide
+      link: /
+    - text: Developers
+      link: /
+    blogroll:
+    - text: Latest news
+      link: /
+    - text: Tech articles
+      link: /
+    - text: Video blog
+      link: /
