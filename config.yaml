@@ -39,40 +39,6 @@ params:
   - title: Get started
     url: https://docs.gaia-pipeline.io/getting-started/
     button: true
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
   section1:
     title: Principles of Gaia
     subtitle: We believe it's time to remove all unnecessary abstractions and come back to our roots.
@@ -80,17 +46,17 @@ params:
     - title: Multilingual 
       icon: code.png
       text: Write pipelines in Go, Java, Python and C++.
-      url: /
+      url: https://docs.gaia-pipeline.io/develop-pipelines/
       buttonText: Learn more
     - title: Super fast and lightweight
       icon: speed.png
       text: Based on Go and gRPC, Gaia is super fast and lightweight.
-      url: /
+      url: https://github.com/gaia-pipeline/gaia#how-does-it-work
       buttonText: Learn more
     - title: Developer friendly
       icon: automation.png
       text: Do automation in a way developers know and love.
-      url: /
+      url: https://docs.gaia-pipeline.io/tutorials/kube-vault-deploy/
       buttonText: Learn more
   section2:
     title: Features
@@ -109,35 +75,14 @@ params:
       text: Gaia is open-source and will always be! Feel free to have a look at the source code, discuss new features and help us to improve it!
       icon: github.png
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+    title: Examples
+    subtitle: Write your own pipeline within seconds!
   footer:
-    # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: gaia-logo-text.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
+    - link: https://github.com/gaia-pipeline/gaia
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
+    - link: https://twitter.com/michelvocks
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
     bulmalogo: true
