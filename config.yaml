@@ -1,6 +1,6 @@
-baseURL: http://something-fresh.org/
+baseURL: https://gaia-pipeline.io/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Gaia - Build powerful pipelines in any programming language.
 theme: hugo-fresh
 
 params:
@@ -17,12 +17,6 @@ params:
     # Where the main hero button links to
     buttonlink: "https://docs.gaia-pipeline.io/getting-started/"
     # Footer logos (from /images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
