@@ -6,7 +6,8 @@
 <div class="hero-body">
   <div class="container">
     <div class="columns is-vcentered">
-      <div class="column is-3 landing-caption" style="min-width: 480px;">
+      <!--main view on pc/tablet--> 
+      <div class="column is-3 landing-caption is-hidden-mobile" style="min-width: 480px;">
         <img src="/images/gaia-logo-text.png" width="360px" alt="Gaia logo">
         {{ with $subtitle }}
         <h2 style="margin-bottom: 60px;" class="subtitle is-4">
@@ -19,6 +20,22 @@
           </a>
         </p>
       </div>
+
+      <!--main view on mobile-->
+      <div class="column is-3 landing-caption is-hidden-desktop is-hidden-tablet">
+        <img src="/images/gaia-logo-text.png" width="360px" alt="Gaia logo">
+        {{ with $subtitle }}
+        <h2 style="margin-bottom: 60px;" class="subtitle is-4">
+          {{ . }}
+        </h2>
+        {{ end }}
+        <p>
+          <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
+            {{ $buttonText }}
+          </a>
+        </p>
+      </div>
+
       <div class="column is-7">
         <video autoplay loop muted>
           <source src="/video/gaia.mp4" type="video/mp4">
