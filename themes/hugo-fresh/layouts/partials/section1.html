@@ -11,26 +11,54 @@
     </div>
 
     <div class="content-wrapper">
-      <div class="columns">
-        {{- range $tiles }}
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>{{ .title }}</h4>
-            </div>
-            <div class="card-icon">
-                <img src="{{ printf "/images/%s" .icon | relURL }}">
-            </div>
-            <div class="card-text">
-                <p>{{ .text }}</p>
-            </div>
-            <div class="card-action">
-              <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
-            </div>
+      <section class="section">
+        <div class="container columns is-vcentered">
+          <div class="column is-one-fifth">
+            <figure class="images">
+              <img src="/images/meteorite.png" width="160" alt="Automation platform of the future">
+            </figure>
+          </div>
+          <div class="column is-four-fifths">
+            <h2 class="title is-4">Automation platform of the future</h2>
+            <span>
+              <p>Automation processes and requirements have developed rapidly in recent years. Cloud, SaaS, PaaS, AaaS, Kubernetes, Docker, and many more technologies were invented to simplify the complexity and management of huge IT applications. Teams often work on small services which have dependencies to other remote services and are part of complex systems. </p><br/>
+              Gaia is the next evolution of automation platforms whose goal is to provide full flexibility and performance for today's CI/CD, but basically any automation workflow imaginable.
+            </span>
           </div>
         </div>
-        {{- end }}
-      </div>
+      </section>
+      <section class="section">
+        <div class="container columns is-vcentered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-4">Enable DevOps</h2>
+            <span>
+              <p>DevOps becomes more and more important and many developers are scared of this word because it usually implies writing endless lines of YAML/JSON configuration files to automate complex automation tasks.</p><br/> 
+              Gaia requires no YAML/JSON or any other spec configuration to write automation workflows. An automation workflow (we named it pipeline) can be written in any programming language and adding it to Gaia usually takes a few <b>seconds</b>.  
+            </span>
+          </div>
+          <div class="column is-one-fifth">
+            <figure class="images">
+              <img src="/images/moon-flag.png" width="160" alt="Enable DevOps">
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container columns is-vcentered">
+          <div class="column is-one-fifth">
+            <figure class="images">
+              <img src="/images/starship.png" width="160" alt="Efficient and super fast">
+            </figure>
+          </div>
+          <div class="column is-four-fifths">
+            <h2 class="title is-4">Efficient and super fast</h2>
+            <span>
+              <p>Traditional automation platforms are mostly overloaded with heavy plugin systems, ancient operating mechanisms and in general over engineered.</p><br/>
+              Gaia has been from the ground up developed with the goal to be ultra lightweight, efficient, super fast and developer-first. It's core is written in Go and the pipeline communication is based on googles battle-hardened gRPC.  
+            </span>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </section>
